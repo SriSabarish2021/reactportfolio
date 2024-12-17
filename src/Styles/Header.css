@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Trispace:wght@100..800&display=swap');
+.headerdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.616);
+    border-top: 1px solid rgba(196, 196, 196, 0.297);
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 10px;
+}
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align:center ;
+    padding-left: 60px;
+}
+.navigator ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    gap: 80px;
+}
+.navigator #li{
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    text-align: center;
+    color: rgb(56, 56, 56);
+}
+#li.active{
+    color: rgb(242, 85, 80);
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    
+}
+.login .p{
+    font-size: 14px;
+    font-family:'Roboto Mono' ;
+    font-family: 800;
+    padding-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+.login button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(242, 85, 80);
+    color: aliceblue;
+    font-size: 12px;
+    font-family: 'Trispace';
+    cursor: pointer;
+}
+.profileimg{
+    display: 'flex';
+    justify-content:center;
+    align-items: center;
+}
+.profileimg img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-shadow:'0 4px 8px rgba(0, 0, 0, 0.2)';
+    cursor: pointer;
+}
